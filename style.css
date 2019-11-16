@@ -1,0 +1,117 @@
+/* Write some CSS below */
+
+body{
+
+	
+}
+
+
+h1{
+	font-family: 'Cinzel', serif;
+	font-size: 50px;
+	color: #F15025;
+	font-weight: 100;
+	text-align: center;
+	
+
+}
+
+
+p{
+	font-family:'Cinzel Decorative', cursive;
+	font-size: 40px;
+	color: #FAFF00;
+
+}
+
+
+
+#banner{
+
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px
+   
+}
+
+
+
+.banner-text{
+text-align: center;
+
+
+}
+
+.btn-blue{
+     
+     background-color: blue;
+     border-radius:7px;
+     font-size: 30px;
+     box-shadow: 4px;
+}
+
+.container{
+width: 1000px;
+margin: 10px auto;
+text-align: center;
+}
+
+.container h2{
+
+	font-size: 20;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.card-white{
+    background-color: white;
+	
+	width: 250px;
+	padding: 24px;
+	margin: 16px auto;
+	
+	border-radius: 4px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,0.5);
+}
+
+.card-white p{
+	font-size: 20px;
+	color: red;
+}
+
+
+.card-white img{
+	height:  200px;
+	width: 200px;
+	object-fit: cover;
+}
+
+a:hover
+{
+	color: black;
+}
+
+.footer{
+
+	background-color: black;
+	
+	padding: 50px;
+	color: white;
+	text-align: center;
+	font-size: 20px
+
+
+
+}
+
+
+
+
+.cards{
+
+   display: flex;
+   justify-content: space-around;
+
+}
+
